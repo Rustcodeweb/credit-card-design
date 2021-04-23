@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "poppins",sans-serif;
+}
+
+.card-container{
+  width: 350px;
+  height: 220px;
+  background-image: linear-gradient(#453F78, #3F2E56,#401F3E);
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-name{
+  font-weight: 700;
+  text-align: right;
+}
+.chip{
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+.chip img{
+  width: 40px;
+  height: 40px;
+}
+.card-no{
+  letter-spacing: .456rem;
+  margin-top: 10px;
+}
+
+.expire-data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.expire-date{
+  margin-top: 6px;
+}
+
+.date-label{
+  font-size: 8px;
+}
+
+.card-type{
+  margin-top: 4px;
+  width: 70px;
+  height: 40px;
+}
+.card-type img{
+  width: 70px;
+  height: 40px;
+}
+
